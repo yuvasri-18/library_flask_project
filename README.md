@@ -27,7 +27,7 @@ This project supports user **registration**, **login**, and navigation to a **da
 
 ## 📂 Folder Structure
 library_flask_project/
-│
+
 ├── app.py # Main Flask app
 
 ├── requirements.txt # Python dependencies
