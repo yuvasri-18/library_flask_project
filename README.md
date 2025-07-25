@@ -29,15 +29,21 @@ This project supports user **registration**, **login**, and navigation to a **da
 library_flask_project/
 │
 ├── app.py # Main Flask app
+
 ├── requirements.txt # Python dependencies
+
 ├── Procfile # For deployment on Railway
 │
 ├── templates/ # HTML pages
+
 │ ├── index.html
+
 │ ├── register.html
+
 │ ├── dashboard.html
 │
 ├── static/ # CSS files
+
 │ └── style.css
 
 
