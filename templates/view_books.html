@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Books</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="login-container">
+    <h1>📖 All Books</h1>
+    {% if books %}
+      <ul>
+        {% for book in books %}
+          <li><strong>{{ book.title }}</strong> by {{ book.author }} ({{ book.year }})</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No books added yet.</p>
+    {% endif %}
+    <p class="footer-text"><a href="/dashboard">← Back to Dashboard</a></p>
+  </div>
+</body>
+</html>
